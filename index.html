@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+  <title>Login Form Lamp</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="tags">
+      <span>#html</span>
+      <span>#css</span>
+      <span>#JS</span>
+    </div>
+    <div class="logo">ENGINEERING<br><small>INSIGHTS</small></div>
+  </header>
+
+  <h1 class="heading">Login Form Lamp</h1>
+
+  <main>
+    <section class="demo" id="demo">
+      <div class="lamp-area">
+        <div class="lamp">
+          <div class="lamp-shade"></div>
+          <div class="lamp-neck"></div>
+          <div class="lamp-base"></div>
+          <div class="lamp-cord" id="cord">
+            <span class="cord-line"></span>
+            <span class="cord-bead"></span>
+          </div>
+        </div>
+      </div>
+
+      <form class="login-form" id="loginForm">
+        <h2>Welcome</h2>
+
+        <label for="username">Username</label>
+        <input id="username" type="text"
+               placeholder="Enter Username"
+               autocomplete="username" required>
+
+        <label for="password">Password</label>
+        <div class="password-wrap">
+          <input id="password" type="password"
+                 placeholder="Enter Password"
+                 autocomplete="current-password"
+                 required>
+          <button type="button" id="togglePassword"
+                  aria-label="Show password">◉</button>
+        </div>
+
+        <button class="sign-in" type="submit">Sign In</button>
+        <p id="message" aria-live="polite"></p>
+      </form>
+    </section>
+
+    <section class="code-section">
+      <h2>CSS CODE</h2>
+      <div class="code-card">
+        <div class="window"><i></i><i></i><i></i></div>
+        <pre><code>/* See style.css for the complete design */</code></pre>
+      </div>
+    </section>
+
+    <section class="code-section">
+      <h2>HTML CODE</h2>
+      <div class="code-card">
+        <div class="window"><i></i><i></i><i></i></div>
+        <pre><code>&lt;section class="demo"&gt;
+  &lt;div class="lamp-area"&gt;
+    &lt;div class="lamp"&gt;
+      &lt;div class="lamp-shade"&gt;&lt;/div&gt;
+      &lt;div class="lamp-neck"&gt;&lt;/div&gt;
+      &lt;div class="lamp-base"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;form class="login-form"&gt;
+    &lt;h2&gt;Welcome&lt;/h2&gt;
+    &lt;input placeholder="Enter Username"&gt;
+    &lt;input placeholder="Enter Password"&gt;
+    &lt;button&gt;Sign In&lt;/button&gt;
+  &lt;/form&gt;
+&lt;/section&gt;</code></pre>
+      </div>
+    </section>
+
+    <section class="code-section">
+      <h2>JS CODE</h2>
+      <div class="code-card">
+        <div class="window"><i></i><i></i><i></i></div>
+        <pre><code>// See script.js for the complete interaction</code></pre>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
